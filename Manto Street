@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Manto Street - Made in Rua</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+    }
+    header {
+      background: #000;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 2.5em;
+    }
+    header p {
+      font-size: 1.2em;
+    }
+    #banner {
+      background: url('banner.jpg') no-repeat center center/cover;
+      height: 400px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #fff;
+      text-align: center;
+    }
+    #banner h2 {
+      font-size: 3em;
+      text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+    }
+    #produtos {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      padding: 20px;
+    }
+    .produto {
+      background: #fff;
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      padding: 15px;
+      margin: 10px;
+      width: 250px;
+      text-align: center;
+    }
+    .produto img {
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+    }
+    .produto h3 {
+      font-size: 1.2em;
+    }
+    .produto p {
+      color: #888;
+    }
+    .produto button {
+      background: #000;
+      color: #fff;
+      border: none;
+      padding: 10px 15px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    footer {
+      background: #000;
+      color: #fff;
+      text-align: center;
+      padding: 10px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Manto Street</h1>
+    <p>Made in Rua - O melhor da moda esportiva urbana</p>
+  </header>
+
+  <section id="banner">
+    <h2>Vista com atitude. Made in Rua.</h2>
+  </section>
+
+  <section id="produtos">
+    <div class="produto">
+      <img src="camisa1.jpg" alt="Camisa de Time 1">
+      <h3>Camisa PSG Home</h3>
+      <p>R$ 199,90</p>
+      <button>Comprar Agora</button>
+    </div>
+    <div class="produto">
+      <img src="camisa2.jpg" alt="Camisa de Time 2">
+      <h3>Camisa Brasil Copa</h3>
+      <p>R$ 219,90</p>
+      <button>Comprar Agora</button>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2024 Manto Street. Feito na Rua para você.</p>
+  </footer>
+</body>
+</html>
